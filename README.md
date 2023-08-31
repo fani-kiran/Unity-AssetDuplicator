@@ -1,16 +1,15 @@
 # Unity-AssetDuplicator
-Problum 
+Problum : 
 When you duplicate a folder in Unity, it generates copies of all the files, but the references still remain directed towards the original folder.
 
-Solution
+Solution : 
 Create a copy of a folder containing assets while ensuring that their references are retained within the same folder by updateing GUIDs in meta referece.
 
-Required
+Required :
 1. python 3.5 or above. 
 2. Mac OS.
 
-How to use
-
+How to use :
 1. Go to Unity asset folder in finder. (Close Unity if it is open)
 2. Make a copy of the folder that requires dupication.
 3. Move this folder to outside the Unity project folder. (in to the folder this script is added)
